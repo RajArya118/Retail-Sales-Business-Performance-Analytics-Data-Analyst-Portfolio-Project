@@ -1,0 +1,495 @@
+customer_id,customer_gender,customer_age,age_group,customer_region,customer_type
+CUST-1001,Female,43,36-50 (Gen X),North,Regular
+CUST-1002,Male,36,36-50 (Gen X),South,Regular
+CUST-1003,Female,45,36-50 (Gen X),Midwest,Member
+CUST-1004,Male,56,51-65 (Boomer),North,Member
+CUST-1005,Male,35,26-35 (Millennial),Midwest,Member
+CUST-1006,Male,35,26-35 (Millennial),Midwest,Member
+CUST-1007,Male,56,51-65 (Boomer),East,Regular
+CUST-1008,Male,47,36-50 (Gen X),South,Regular
+CUST-1009,Male,32,26-35 (Millennial),South,Member
+CUST-1010,Female,44,36-50 (Gen X),North,Member
+CUST-1011,Male,32,26-35 (Millennial),East,Regular
+CUST-1012,Female,32,26-35 (Millennial),West,Regular
+CUST-1013,Non-Binary,40,36-50 (Gen X),West,Member
+CUST-1014,Male,18,18-25 (Gen Z),Midwest,VIP
+CUST-1015,Male,18,18-25 (Gen Z),South,Regular
+CUST-1016,Male,31,26-35 (Millennial),South,Regular
+CUST-1017,Prefer not to say,25,18-25 (Gen Z),South,VIP
+CUST-1018,Male,41,36-50 (Gen X),West,Regular
+CUST-1019,Male,27,26-35 (Millennial),East,Member
+CUST-1020,Female,21,18-25 (Gen Z),North,Regular
+CUST-1021,Male,55,51-65 (Boomer),South,Member
+CUST-1022,Male,35,26-35 (Millennial),Midwest,Member
+CUST-1023,Male,38,36-50 (Gen X),North,Member
+CUST-1024,Male,20,18-25 (Gen Z),East,Member
+CUST-1025,Male,31,26-35 (Millennial),Midwest,VIP
+CUST-1026,Male,39,36-50 (Gen X),West,Member
+CUST-1027,Female,24,18-25 (Gen Z),West,Member
+CUST-1028,Male,42,36-50 (Gen X),Midwest,Regular
+CUST-1029,Female,30,26-35 (Millennial),West,VIP
+CUST-1030,Male,34,26-35 (Millennial),South,VIP
+CUST-1031,Male,30,26-35 (Millennial),West,Member
+CUST-1032,Male,60,51-65 (Boomer),North,Member
+CUST-1033,Male,37,36-50 (Gen X),West,Regular
+CUST-1034,Male,25,18-25 (Gen Z),Midwest,VIP
+CUST-1035,Female,47,36-50 (Gen X),Midwest,VIP
+CUST-1036,Male,23,18-25 (Gen Z),North,Regular
+CUST-1037,Female,40,36-50 (Gen X),East,Regular
+CUST-1038,Male,18,18-25 (Gen Z),East,Member
+CUST-1039,Male,22,18-25 (Gen Z),East,VIP
+CUST-1040,Female,40,36-50 (Gen X),Midwest,VIP
+CUST-1041,Female,46,36-50 (Gen X),East,Regular
+CUST-1042,Female,40,36-50 (Gen X),South,Member
+CUST-1043,Female,36,36-50 (Gen X),Midwest,VIP
+CUST-1044,Female,34,26-35 (Millennial),North,Regular
+CUST-1045,Female,20,18-25 (Gen Z),North,VIP
+CUST-1046,Female,29,26-35 (Millennial),East,Member
+CUST-1047,Male,32,26-35 (Millennial),Midwest,VIP
+CUST-1048,Male,50,36-50 (Gen X),West,Regular
+CUST-1049,Non-Binary,42,36-50 (Gen X),Midwest,Regular
+CUST-1050,Male,18,18-25 (Gen Z),West,VIP
+CUST-1051,Male,41,36-50 (Gen X),Midwest,VIP
+CUST-1052,Male,33,26-35 (Millennial),South,VIP
+CUST-1053,Female,29,26-35 (Millennial),South,Regular
+CUST-1054,Male,45,36-50 (Gen X),East,Member
+CUST-1055,Female,50,36-50 (Gen X),North,Member
+CUST-1056,Male,49,36-50 (Gen X),North,Regular
+CUST-1057,Male,27,26-35 (Millennial),South,Member
+CUST-1058,Female,34,26-35 (Millennial),North,Member
+CUST-1059,Female,41,36-50 (Gen X),East,Member
+CUST-1060,Male,49,36-50 (Gen X),West,Member
+CUST-1061,Male,32,26-35 (Millennial),Midwest,Regular
+CUST-1062,Male,35,26-35 (Millennial),West,Regular
+CUST-1063,Male,24,18-25 (Gen Z),North,Regular
+CUST-1064,Male,23,18-25 (Gen Z),West,Regular
+CUST-1065,Female,47,36-50 (Gen X),North,Member
+CUST-1066,Female,54,51-65 (Boomer),North,Member
+CUST-1067,Male,37,36-50 (Gen X),West,Member
+CUST-1068,Male,50,36-50 (Gen X),West,Member
+CUST-1069,Female,42,36-50 (Gen X),West,Regular
+CUST-1070,Female,30,26-35 (Millennial),North,Member
+CUST-1071,Prefer not to say,42,36-50 (Gen X),North,VIP
+CUST-1072,Female,56,51-65 (Boomer),South,Member
+CUST-1073,Female,37,36-50 (Gen X),South,VIP
+CUST-1074,Female,56,51-65 (Boomer),South,Member
+CUST-1075,Prefer not to say,18,18-25 (Gen Z),East,VIP
+CUST-1076,Female,47,36-50 (Gen X),East,Member
+CUST-1077,Non-Binary,39,36-50 (Gen X),Midwest,Regular
+CUST-1078,Female,34,26-35 (Millennial),South,Member
+CUST-1079,Non-Binary,39,36-50 (Gen X),Midwest,Regular
+CUST-1080,Male,18,18-25 (Gen Z),East,Member
+CUST-1081,Female,35,26-35 (Millennial),Midwest,VIP
+CUST-1082,Female,42,36-50 (Gen X),North,VIP
+CUST-1083,Male,55,51-65 (Boomer),South,Member
+CUST-1084,Male,31,26-35 (Millennial),South,Member
+CUST-1085,Non-Binary,28,26-35 (Millennial),Midwest,Member
+CUST-1086,Female,31,26-35 (Millennial),Midwest,Member
+CUST-1087,Female,48,36-50 (Gen X),Midwest,Regular
+CUST-1088,Female,41,36-50 (Gen X),South,Regular
+CUST-1089,Male,31,26-35 (Millennial),East,Member
+CUST-1090,Female,44,36-50 (Gen X),East,Regular
+CUST-1091,Female,39,36-50 (Gen X),North,Member
+CUST-1092,Female,49,36-50 (Gen X),Midwest,VIP
+CUST-1093,Male,29,26-35 (Millennial),South,Regular
+CUST-1094,Male,34,26-35 (Millennial),East,VIP
+CUST-1095,Female,33,26-35 (Millennial),East,Member
+CUST-1096,Male,20,18-25 (Gen Z),Midwest,Regular
+CUST-1097,Female,41,36-50 (Gen X),Midwest,Member
+CUST-1098,Female,41,36-50 (Gen X),East,VIP
+CUST-1099,Male,38,36-50 (Gen X),South,Member
+CUST-1100,Female,35,26-35 (Millennial),Midwest,Member
+CUST-1101,Male,21,18-25 (Gen Z),South,Regular
+CUST-1102,Male,32,26-35 (Millennial),East,Regular
+CUST-1103,Male,33,26-35 (Millennial),North,Member
+CUST-1104,Male,28,26-35 (Millennial),East,Member
+CUST-1105,Male,36,36-50 (Gen X),South,Regular
+CUST-1106,Male,42,36-50 (Gen X),West,Regular
+CUST-1108,Non-Binary,40,36-50 (Gen X),South,Regular
+CUST-1109,Female,41,36-50 (Gen X),Midwest,Regular
+CUST-1110,Male,37,36-50 (Gen X),North,Member
+CUST-1111,Female,18,18-25 (Gen Z),North,VIP
+CUST-1112,Male,37,36-50 (Gen X),South,Regular
+CUST-1113,Male,38,36-50 (Gen X),Midwest,VIP
+CUST-1114,Male,67,65+ (Senior),Midwest,Regular
+CUST-1115,Female,35,26-35 (Millennial),South,VIP
+CUST-1116,Non-Binary,41,36-50 (Gen X),South,VIP
+CUST-1117,Male,37,36-50 (Gen X),East,Regular
+CUST-1118,Male,23,18-25 (Gen Z),South,Member
+CUST-1119,Female,51,51-65 (Boomer),North,Member
+CUST-1120,Male,47,36-50 (Gen X),West,Member
+CUST-1121,Female,47,36-50 (Gen X),West,Member
+CUST-1122,Female,27,26-35 (Millennial),South,Member
+CUST-1123,Female,54,51-65 (Boomer),West,Member
+CUST-1124,Female,21,18-25 (Gen Z),East,Member
+CUST-1125,Female,45,36-50 (Gen X),Midwest,Member
+CUST-1126,Male,64,51-65 (Boomer),East,Member
+CUST-1127,Non-Binary,26,26-35 (Millennial),East,Member
+CUST-1128,Female,31,26-35 (Millennial),East,Regular
+CUST-1129,Male,39,36-50 (Gen X),Midwest,VIP
+CUST-1130,Male,31,26-35 (Millennial),Midwest,Member
+CUST-1131,Male,19,18-25 (Gen Z),West,Member
+CUST-1132,Female,38,36-50 (Gen X),Midwest,Regular
+CUST-1133,Non-Binary,25,18-25 (Gen Z),South,Member
+CUST-1134,Male,43,36-50 (Gen X),East,Regular
+CUST-1135,Female,26,26-35 (Millennial),North,Regular
+CUST-1136,Male,56,51-65 (Boomer),East,Regular
+CUST-1137,Male,28,26-35 (Millennial),East,Regular
+CUST-1138,Male,34,26-35 (Millennial),West,Regular
+CUST-1139,Female,47,36-50 (Gen X),Midwest,Regular
+CUST-1140,Male,23,18-25 (Gen Z),North,Member
+CUST-1141,Male,40,36-50 (Gen X),Midwest,Regular
+CUST-1142,Male,53,51-65 (Boomer),West,Member
+CUST-1143,Male,18,18-25 (Gen Z),West,Regular
+CUST-1144,Non-Binary,40,36-50 (Gen X),South,Regular
+CUST-1145,Male,41,36-50 (Gen X),Midwest,Member
+CUST-1146,Female,47,36-50 (Gen X),South,Regular
+CUST-1147,Male,23,18-25 (Gen Z),South,Member
+CUST-1148,Male,22,18-25 (Gen Z),West,Regular
+CUST-1149,Female,44,36-50 (Gen X),West,Member
+CUST-1150,Female,41,36-50 (Gen X),South,Regular
+CUST-1151,Male,41,36-50 (Gen X),West,Member
+CUST-1152,Female,42,36-50 (Gen X),North,VIP
+CUST-1153,Female,29,26-35 (Millennial),North,Regular
+CUST-1154,Male,40,36-50 (Gen X),Midwest,Regular
+CUST-1155,Female,41,36-50 (Gen X),North,Regular
+CUST-1156,Female,29,26-35 (Millennial),Midwest,VIP
+CUST-1157,Female,60,51-65 (Boomer),West,Regular
+CUST-1158,Female,43,36-50 (Gen X),Midwest,Member
+CUST-1159,Female,23,18-25 (Gen Z),West,VIP
+CUST-1160,Female,45,36-50 (Gen X),West,Regular
+CUST-1161,Female,26,26-35 (Millennial),East,Regular
+CUST-1162,Female,47,36-50 (Gen X),South,Member
+CUST-1163,Male,51,51-65 (Boomer),East,Member
+CUST-1164,Male,28,26-35 (Millennial),Midwest,Member
+CUST-1165,Male,49,36-50 (Gen X),West,Regular
+CUST-1166,Female,42,36-50 (Gen X),North,Member
+CUST-1167,Male,47,36-50 (Gen X),West,Member
+CUST-1168,Male,60,51-65 (Boomer),West,Member
+CUST-1169,Female,35,26-35 (Millennial),North,VIP
+CUST-1170,Female,28,26-35 (Millennial),West,Regular
+CUST-1171,Non-Binary,27,26-35 (Millennial),East,Regular
+CUST-1172,Female,28,26-35 (Millennial),West,Regular
+CUST-1173,Female,37,36-50 (Gen X),Midwest,VIP
+CUST-1174,Female,42,36-50 (Gen X),East,Member
+CUST-1175,Male,41,36-50 (Gen X),East,Regular
+CUST-1176,Female,47,36-50 (Gen X),South,Regular
+CUST-1177,Female,38,36-50 (Gen X),Midwest,Regular
+CUST-1178,Female,55,51-65 (Boomer),Midwest,Regular
+CUST-1179,Male,34,26-35 (Millennial),West,Member
+CUST-1180,Male,70,65+ (Senior),North,Member
+CUST-1181,Male,45,36-50 (Gen X),West,Member
+CUST-1182,Female,27,26-35 (Millennial),West,Member
+CUST-1183,Non-Binary,25,18-25 (Gen Z),West,Member
+CUST-1184,Male,43,36-50 (Gen X),North,Regular
+CUST-1185,Male,35,26-35 (Millennial),East,Member
+CUST-1186,Male,46,36-50 (Gen X),North,Regular
+CUST-1187,Non-Binary,43,36-50 (Gen X),South,Regular
+CUST-1188,Female,37,36-50 (Gen X),South,Member
+CUST-1189,Female,27,26-35 (Millennial),Midwest,VIP
+CUST-1190,Male,19,18-25 (Gen Z),East,Regular
+CUST-1191,Male,32,26-35 (Millennial),Midwest,VIP
+CUST-1192,Female,48,36-50 (Gen X),South,VIP
+CUST-1193,Male,40,36-50 (Gen X),North,VIP
+CUST-1194,Female,23,18-25 (Gen Z),West,Member
+CUST-1195,Female,40,36-50 (Gen X),North,Regular
+CUST-1196,Female,42,36-50 (Gen X),South,Member
+CUST-1197,Female,27,26-35 (Millennial),Midwest,Regular
+CUST-1198,Female,39,36-50 (Gen X),Midwest,Regular
+CUST-1199,Male,38,36-50 (Gen X),West,Regular
+CUST-1200,Male,24,18-25 (Gen Z),East,Member
+CUST-1201,Male,42,36-50 (Gen X),West,Member
+CUST-1202,Non-Binary,44,36-50 (Gen X),West,Regular
+CUST-1203,Male,50,36-50 (Gen X),Midwest,VIP
+CUST-1204,Male,50,36-50 (Gen X),Midwest,Regular
+CUST-1205,Male,21,18-25 (Gen Z),Midwest,Member
+CUST-1206,Female,26,26-35 (Millennial),North,Member
+CUST-1207,Male,44,36-50 (Gen X),West,Regular
+CUST-1208,Female,44,36-50 (Gen X),East,Member
+CUST-1209,Female,44,36-50 (Gen X),South,Regular
+CUST-1210,Male,74,65+ (Senior),East,Member
+CUST-1211,Female,44,36-50 (Gen X),East,Regular
+CUST-1212,Female,51,51-65 (Boomer),South,Member
+CUST-1213,Female,49,36-50 (Gen X),West,Regular
+CUST-1214,Male,45,36-50 (Gen X),West,Regular
+CUST-1215,Female,34,26-35 (Millennial),North,Member
+CUST-1216,Male,47,36-50 (Gen X),South,Member
+CUST-1217,Female,28,26-35 (Millennial),West,Regular
+CUST-1218,Male,35,26-35 (Millennial),Midwest,Member
+CUST-1219,Female,32,26-35 (Millennial),East,Member
+CUST-1220,Male,38,36-50 (Gen X),South,Member
+CUST-1221,Female,65,51-65 (Boomer),South,Member
+CUST-1222,Female,18,18-25 (Gen Z),East,Regular
+CUST-1223,Non-Binary,46,36-50 (Gen X),Midwest,Regular
+CUST-1224,Prefer not to say,18,18-25 (Gen Z),South,Member
+CUST-1225,Male,32,26-35 (Millennial),East,Member
+CUST-1226,Female,51,51-65 (Boomer),East,Member
+CUST-1227,Male,38,36-50 (Gen X),East,Regular
+CUST-1228,Male,25,18-25 (Gen Z),West,Member
+CUST-1229,Male,29,26-35 (Millennial),East,Regular
+CUST-1230,Male,46,36-50 (Gen X),South,VIP
+CUST-1231,Male,29,26-35 (Millennial),West,Member
+CUST-1232,Male,40,36-50 (Gen X),West,Member
+CUST-1233,Female,38,36-50 (Gen X),North,Member
+CUST-1234,Female,30,26-35 (Millennial),East,Member
+CUST-1235,Male,63,51-65 (Boomer),Midwest,Regular
+CUST-1236,Female,45,36-50 (Gen X),Midwest,Member
+CUST-1237,Female,18,18-25 (Gen Z),West,VIP
+CUST-1238,Male,40,36-50 (Gen X),Midwest,VIP
+CUST-1239,Male,30,26-35 (Millennial),Midwest,Member
+CUST-1240,Non-Binary,48,36-50 (Gen X),North,VIP
+CUST-1241,Male,28,26-35 (Millennial),South,Member
+CUST-1242,Male,36,36-50 (Gen X),South,Member
+CUST-1243,Male,44,36-50 (Gen X),North,Member
+CUST-1244,Female,48,36-50 (Gen X),West,Member
+CUST-1245,Male,23,18-25 (Gen Z),East,Regular
+CUST-1246,Male,33,26-35 (Millennial),South,VIP
+CUST-1247,Female,32,26-35 (Millennial),Midwest,Regular
+CUST-1248,Female,30,26-35 (Millennial),West,Member
+CUST-1249,Male,59,51-65 (Boomer),South,VIP
+CUST-1250,Female,42,36-50 (Gen X),North,Member
+CUST-1251,Female,22,18-25 (Gen Z),Midwest,Regular
+CUST-1252,Female,49,36-50 (Gen X),East,Member
+CUST-1253,Male,63,51-65 (Boomer),East,Regular
+CUST-1254,Non-Binary,50,36-50 (Gen X),Midwest,Regular
+CUST-1255,Male,19,18-25 (Gen Z),Midwest,Member
+CUST-1256,Male,32,26-35 (Millennial),East,Regular
+CUST-1257,Male,53,51-65 (Boomer),South,VIP
+CUST-1258,Female,29,26-35 (Millennial),Midwest,Regular
+CUST-1259,Male,43,36-50 (Gen X),East,Regular
+CUST-1260,Female,47,36-50 (Gen X),South,Regular
+CUST-1261,Female,26,26-35 (Millennial),East,Member
+CUST-1262,Female,37,36-50 (Gen X),West,VIP
+CUST-1263,Female,18,18-25 (Gen Z),West,Member
+CUST-1264,Female,25,18-25 (Gen Z),South,Member
+CUST-1265,Female,34,26-35 (Millennial),East,Regular
+CUST-1266,Male,23,18-25 (Gen Z),Midwest,Member
+CUST-1267,Male,57,51-65 (Boomer),East,Member
+CUST-1268,Non-Binary,20,18-25 (Gen Z),West,VIP
+CUST-1269,Female,32,26-35 (Millennial),North,Regular
+CUST-1270,Female,39,36-50 (Gen X),West,Member
+CUST-1271,Female,55,51-65 (Boomer),Midwest,Regular
+CUST-1272,Female,20,18-25 (Gen Z),North,Member
+CUST-1273,Female,51,51-65 (Boomer),East,Member
+CUST-1274,Female,38,36-50 (Gen X),North,Member
+CUST-1275,Female,26,26-35 (Millennial),South,Regular
+CUST-1277,Male,40,36-50 (Gen X),North,Regular
+CUST-1278,Male,30,26-35 (Millennial),South,Regular
+CUST-1279,Female,38,36-50 (Gen X),Midwest,Regular
+CUST-1280,Male,33,26-35 (Millennial),West,VIP
+CUST-1281,Male,39,36-50 (Gen X),Midwest,Member
+CUST-1282,Male,45,36-50 (Gen X),Midwest,Regular
+CUST-1283,Female,57,51-65 (Boomer),North,Member
+CUST-1284,Female,23,18-25 (Gen Z),West,Member
+CUST-1285,Female,63,51-65 (Boomer),East,Regular
+CUST-1286,Male,18,18-25 (Gen Z),East,Regular
+CUST-1287,Female,36,36-50 (Gen X),West,VIP
+CUST-1288,Male,45,36-50 (Gen X),West,Member
+CUST-1289,Female,41,36-50 (Gen X),Midwest,Member
+CUST-1291,Male,35,26-35 (Millennial),West,Member
+CUST-1292,Female,32,26-35 (Millennial),North,Member
+CUST-1293,Female,30,26-35 (Millennial),West,Member
+CUST-1294,Female,48,36-50 (Gen X),South,Regular
+CUST-1295,Male,42,36-50 (Gen X),Midwest,VIP
+CUST-1296,Male,29,26-35 (Millennial),North,VIP
+CUST-1297,Male,48,36-50 (Gen X),Midwest,VIP
+CUST-1298,Male,41,36-50 (Gen X),South,Member
+CUST-1299,Female,47,36-50 (Gen X),South,Member
+CUST-1300,Female,45,36-50 (Gen X),East,Member
+CUST-1301,Female,28,26-35 (Millennial),North,VIP
+CUST-1302,Female,31,26-35 (Millennial),Midwest,Member
+CUST-1303,Male,46,36-50 (Gen X),West,VIP
+CUST-1304,Male,45,36-50 (Gen X),North,Member
+CUST-1305,Female,37,36-50 (Gen X),East,VIP
+CUST-1306,Female,39,36-50 (Gen X),West,VIP
+CUST-1307,Female,53,51-65 (Boomer),North,Member
+CUST-1308,Female,30,26-35 (Millennial),North,Member
+CUST-1309,Female,44,36-50 (Gen X),East,Member
+CUST-1310,Male,35,26-35 (Millennial),South,Regular
+CUST-1311,Female,35,26-35 (Millennial),South,Member
+CUST-1312,Male,51,51-65 (Boomer),West,Regular
+CUST-1313,Male,47,36-50 (Gen X),Midwest,Member
+CUST-1314,Male,47,36-50 (Gen X),East,Regular
+CUST-1315,Female,53,51-65 (Boomer),West,VIP
+CUST-1316,Female,38,36-50 (Gen X),South,Member
+CUST-1317,Non-Binary,46,36-50 (Gen X),Midwest,Member
+CUST-1318,Non-Binary,34,26-35 (Millennial),East,Regular
+CUST-1319,Male,41,36-50 (Gen X),West,VIP
+CUST-1320,Male,36,36-50 (Gen X),West,Regular
+CUST-1321,Female,39,36-50 (Gen X),East,Member
+CUST-1322,Female,45,36-50 (Gen X),West,Member
+CUST-1323,Female,28,26-35 (Millennial),North,VIP
+CUST-1324,Female,63,51-65 (Boomer),East,Regular
+CUST-1325,Male,25,18-25 (Gen Z),East,Member
+CUST-1326,Male,23,18-25 (Gen Z),East,Regular
+CUST-1327,Female,51,51-65 (Boomer),South,Regular
+CUST-1328,Female,47,36-50 (Gen X),North,Member
+CUST-1329,Male,45,36-50 (Gen X),Midwest,Member
+CUST-1330,Male,45,36-50 (Gen X),East,Member
+CUST-1331,Male,37,36-50 (Gen X),South,Member
+CUST-1332,Female,27,26-35 (Millennial),East,Regular
+CUST-1333,Female,38,36-50 (Gen X),South,Member
+CUST-1334,Female,29,26-35 (Millennial),West,VIP
+CUST-1335,Male,49,36-50 (Gen X),East,Regular
+CUST-1336,Male,36,36-50 (Gen X),North,Member
+CUST-1337,Non-Binary,28,26-35 (Millennial),West,VIP
+CUST-1338,Female,34,26-35 (Millennial),East,Member
+CUST-1339,Male,42,36-50 (Gen X),East,Regular
+CUST-1340,Male,31,26-35 (Millennial),East,Regular
+CUST-1341,Female,28,26-35 (Millennial),East,Member
+CUST-1342,Male,40,36-50 (Gen X),North,Regular
+CUST-1343,Non-Binary,40,36-50 (Gen X),East,VIP
+CUST-1344,Male,31,26-35 (Millennial),North,Regular
+CUST-1345,Male,32,26-35 (Millennial),East,Regular
+CUST-1346,Male,40,36-50 (Gen X),North,VIP
+CUST-1347,Male,20,18-25 (Gen Z),West,Member
+CUST-1348,Male,21,18-25 (Gen Z),Midwest,Member
+CUST-1349,Male,29,26-35 (Millennial),Midwest,Member
+CUST-1350,Female,35,26-35 (Millennial),South,VIP
+CUST-1351,Female,41,36-50 (Gen X),West,Regular
+CUST-1352,Female,55,51-65 (Boomer),East,Member
+CUST-1353,Male,48,36-50 (Gen X),West,Member
+CUST-1354,Male,36,36-50 (Gen X),East,Member
+CUST-1355,Female,37,36-50 (Gen X),Midwest,VIP
+CUST-1356,Female,25,18-25 (Gen Z),North,Member
+CUST-1357,Male,37,36-50 (Gen X),North,VIP
+CUST-1358,Female,34,26-35 (Millennial),North,Regular
+CUST-1359,Female,41,36-50 (Gen X),Midwest,VIP
+CUST-1360,Male,28,26-35 (Millennial),East,Member
+CUST-1361,Male,44,36-50 (Gen X),Midwest,Member
+CUST-1362,Female,56,51-65 (Boomer),Midwest,Member
+CUST-1363,Male,36,36-50 (Gen X),South,Member
+CUST-1364,Male,42,36-50 (Gen X),Midwest,Member
+CUST-1365,Female,46,36-50 (Gen X),South,VIP
+CUST-1366,Female,33,26-35 (Millennial),South,Member
+CUST-1367,Female,40,36-50 (Gen X),South,Member
+CUST-1368,Female,38,36-50 (Gen X),South,Regular
+CUST-1369,Male,39,36-50 (Gen X),East,Member
+CUST-1370,Female,28,26-35 (Millennial),Midwest,Member
+CUST-1371,Male,38,36-50 (Gen X),West,Regular
+CUST-1372,Female,43,36-50 (Gen X),North,Regular
+CUST-1373,Male,55,51-65 (Boomer),Midwest,Member
+CUST-1374,Female,49,36-50 (Gen X),Midwest,Member
+CUST-1375,Female,63,51-65 (Boomer),North,Member
+CUST-1376,Female,28,26-35 (Millennial),West,Member
+CUST-1377,Male,48,36-50 (Gen X),West,Member
+CUST-1378,Male,40,36-50 (Gen X),Midwest,Member
+CUST-1379,Male,64,51-65 (Boomer),Midwest,Regular
+CUST-1380,Female,28,26-35 (Millennial),East,Member
+CUST-1381,Female,27,26-35 (Millennial),East,Regular
+CUST-1382,Female,30,26-35 (Millennial),North,Regular
+CUST-1383,Male,18,18-25 (Gen Z),Midwest,Regular
+CUST-1384,Male,31,26-35 (Millennial),West,VIP
+CUST-1385,Male,28,26-35 (Millennial),West,Member
+CUST-1386,Female,39,36-50 (Gen X),East,Member
+CUST-1387,Female,42,36-50 (Gen X),East,VIP
+CUST-1388,Female,60,51-65 (Boomer),West,Member
+CUST-1389,Female,49,36-50 (Gen X),North,Member
+CUST-1390,Female,31,26-35 (Millennial),East,Regular
+CUST-1391,Female,27,26-35 (Millennial),Midwest,VIP
+CUST-1392,Female,43,36-50 (Gen X),North,Member
+CUST-1393,Female,22,18-25 (Gen Z),West,VIP
+CUST-1394,Female,59,51-65 (Boomer),East,Regular
+CUST-1395,Male,52,51-65 (Boomer),Midwest,Regular
+CUST-1396,Male,32,26-35 (Millennial),West,Member
+CUST-1397,Male,18,18-25 (Gen Z),Midwest,Member
+CUST-1398,Female,54,51-65 (Boomer),Midwest,Member
+CUST-1399,Male,36,36-50 (Gen X),Midwest,VIP
+CUST-1401,Female,18,18-25 (Gen Z),Midwest,VIP
+CUST-1402,Female,30,26-35 (Millennial),East,Member
+CUST-1403,Male,38,36-50 (Gen X),East,VIP
+CUST-1404,Male,38,36-50 (Gen X),South,VIP
+CUST-1405,Female,32,26-35 (Millennial),West,Member
+CUST-1406,Female,45,36-50 (Gen X),North,Member
+CUST-1407,Female,25,18-25 (Gen Z),West,Member
+CUST-1408,Male,36,36-50 (Gen X),East,Member
+CUST-1409,Male,39,36-50 (Gen X),Midwest,Regular
+CUST-1410,Female,44,36-50 (Gen X),South,Member
+CUST-1411,Female,46,36-50 (Gen X),North,Member
+CUST-1412,Female,24,18-25 (Gen Z),West,Regular
+CUST-1413,Male,19,18-25 (Gen Z),South,Regular
+CUST-1414,Male,53,51-65 (Boomer),West,Member
+CUST-1415,Female,41,36-50 (Gen X),Midwest,Regular
+CUST-1416,Female,29,26-35 (Millennial),North,Member
+CUST-1417,Prefer not to say,56,51-65 (Boomer),North,Member
+CUST-1418,Male,39,36-50 (Gen X),South,Regular
+CUST-1419,Female,52,51-65 (Boomer),East,Member
+CUST-1420,Male,38,36-50 (Gen X),West,Member
+CUST-1421,Male,62,51-65 (Boomer),South,Regular
+CUST-1422,Female,59,51-65 (Boomer),East,Member
+CUST-1423,Female,35,26-35 (Millennial),North,Member
+CUST-1424,Male,49,36-50 (Gen X),North,VIP
+CUST-1425,Female,45,36-50 (Gen X),Midwest,Member
+CUST-1426,Female,54,51-65 (Boomer),East,Member
+CUST-1427,Male,26,26-35 (Millennial),East,Member
+CUST-1428,Non-Binary,46,36-50 (Gen X),West,Regular
+CUST-1429,Female,50,36-50 (Gen X),North,Member
+CUST-1430,Male,18,18-25 (Gen Z),West,Regular
+CUST-1431,Female,23,18-25 (Gen Z),West,VIP
+CUST-1432,Female,18,18-25 (Gen Z),South,Member
+CUST-1434,Female,46,36-50 (Gen X),South,VIP
+CUST-1435,Male,56,51-65 (Boomer),South,Member
+CUST-1436,Male,38,36-50 (Gen X),South,Member
+CUST-1437,Male,57,51-65 (Boomer),North,Member
+CUST-1438,Female,21,18-25 (Gen Z),West,Regular
+CUST-1439,Female,18,18-25 (Gen Z),Midwest,Member
+CUST-1440,Female,37,36-50 (Gen X),Midwest,Regular
+CUST-1441,Prefer not to say,42,36-50 (Gen X),East,VIP
+CUST-1442,Female,37,36-50 (Gen X),South,Member
+CUST-1443,Male,18,18-25 (Gen Z),East,Regular
+CUST-1445,Male,22,18-25 (Gen Z),West,Member
+CUST-1446,Male,46,36-50 (Gen X),East,Member
+CUST-1447,Female,42,36-50 (Gen X),North,Regular
+CUST-1448,Female,26,26-35 (Millennial),West,Regular
+CUST-1449,Non-Binary,31,26-35 (Millennial),North,Member
+CUST-1450,Female,25,18-25 (Gen Z),South,Member
+CUST-1451,Female,37,36-50 (Gen X),South,VIP
+CUST-1452,Male,49,36-50 (Gen X),East,VIP
+CUST-1453,Male,26,26-35 (Millennial),South,Member
+CUST-1454,Female,44,36-50 (Gen X),West,Regular
+CUST-1455,Female,31,26-35 (Millennial),East,Member
+CUST-1456,Male,28,26-35 (Millennial),West,Regular
+CUST-1457,Female,36,36-50 (Gen X),North,Regular
+CUST-1458,Female,25,18-25 (Gen Z),North,Member
+CUST-1459,Female,31,26-35 (Millennial),West,Member
+CUST-1460,Female,23,18-25 (Gen Z),Midwest,VIP
+CUST-1461,Male,61,51-65 (Boomer),Midwest,Regular
+CUST-1462,Female,38,36-50 (Gen X),East,VIP
+CUST-1463,Female,29,26-35 (Millennial),West,Member
+CUST-1464,Female,40,36-50 (Gen X),North,Member
+CUST-1465,Male,36,36-50 (Gen X),East,Regular
+CUST-1466,Female,35,26-35 (Millennial),Midwest,Member
+CUST-1467,Female,45,36-50 (Gen X),Midwest,Member
+CUST-1468,Male,47,36-50 (Gen X),South,VIP
+CUST-1469,Male,31,26-35 (Millennial),West,Member
+CUST-1470,Prefer not to say,31,26-35 (Millennial),South,Member
+CUST-1471,Female,34,26-35 (Millennial),North,Regular
+CUST-1472,Female,18,18-25 (Gen Z),Midwest,Member
+CUST-1473,Male,19,18-25 (Gen Z),Midwest,Member
+CUST-1474,Male,54,51-65 (Boomer),South,Member
+CUST-1475,Female,57,51-65 (Boomer),Midwest,Regular
+CUST-1476,Male,35,26-35 (Millennial),West,Member
+CUST-1477,Male,44,36-50 (Gen X),South,VIP
+CUST-1478,Female,41,36-50 (Gen X),West,Member
+CUST-1479,Male,74,65+ (Senior),West,VIP
+CUST-1480,Male,51,51-65 (Boomer),Midwest,VIP
+CUST-1481,Male,36,36-50 (Gen X),East,Regular
+CUST-1482,Female,26,26-35 (Millennial),West,VIP
+CUST-1483,Female,18,18-25 (Gen Z),Midwest,Member
+CUST-1484,Male,40,36-50 (Gen X),West,VIP
+CUST-1485,Female,28,26-35 (Millennial),North,Regular
+CUST-1486,Female,20,18-25 (Gen Z),North,Member
+CUST-1487,Female,30,26-35 (Millennial),East,Member
+CUST-1488,Female,25,18-25 (Gen Z),West,Member
+CUST-1489,Female,58,51-65 (Boomer),West,VIP
+CUST-1490,Female,48,36-50 (Gen X),West,Member
+CUST-1491,Female,37,36-50 (Gen X),South,Member
+CUST-1492,Male,55,51-65 (Boomer),South,Member
+CUST-1493,Female,38,36-50 (Gen X),East,Regular
+CUST-1494,Male,27,26-35 (Millennial),East,VIP
+CUST-1495,Female,56,51-65 (Boomer),South,Regular
+CUST-1496,Male,44,36-50 (Gen X),Midwest,Member
+CUST-1497,Male,25,18-25 (Gen Z),East,Member
+CUST-1498,Male,35,26-35 (Millennial),Midwest,Regular
+CUST-1499,Male,27,26-35 (Millennial),East,Member
+CUST-1500,Male,21,18-25 (Gen Z),South,Member

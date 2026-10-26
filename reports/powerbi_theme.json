@@ -1,0 +1,56 @@
+{
+  "name": "Retail Sales Executive Theme",
+  "dataColors": [
+    "#1F497D",
+    "#2B5C8F",
+    "#FF7F0E",
+    "#2CA02C",
+    "#D62728",
+    "#9467BD",
+    "#17BECF",
+    "#BCBD22"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252525",
+  "tableAccent": "#1F497D",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#F8FAFC" } },
+            "foregroundColor": { "solid": { "color": "#1E293B" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F8FAFC" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 24,
+            "color": { "solid": { "color": "#1F497D" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": { "solid": { "color": "#64748B" } }
+          }
+        ]
+      }
+    }
+  }
+}

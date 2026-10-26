@@ -1,0 +1,8 @@
+store_id,store_location,sales_channel
+LOC-01,Chicago,In-Store
+LOC-02,Houston,In-Store
+LOC-03,Los Angeles,In-Store
+LOC-04,New York,In-Store
+LOC-05,Phoenix,In-Store
+LOC-06,Online Store,Mobile App
+LOC-07,Online Store,Online

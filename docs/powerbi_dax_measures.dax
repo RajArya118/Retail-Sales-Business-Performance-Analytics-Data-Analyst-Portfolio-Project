@@ -1,0 +1,254 @@
+// ====================================================================
+// Retail Sales Analytics — Complete Production DAX Measure Library
+// Recommended practice: Place all measures inside a dedicated '_Measures' table.
+// ====================================================================
+
+// --------------------------------------------------------------------
+// SECTION 1: BASE FINANCIAL & OPERATIONAL AGGREGATIONS
+// --------------------------------------------------------------------
+
+[Total Revenue] = 
+SUM(Fact_Sales[total_amount])
+// Formatted as Currency: $#,##0.00
+// Baseline: $307,881.56
+
+[Total Gross Sales] = 
+SUM(Fact_Sales[gross_amount])
+// Formatted as Currency: $#,##0.00
+
+[Total Discounts] = 
+SUM(Fact_Sales[discount_amount])
+// Formatted as Currency: $#,##0.00
+
+[Total Tax Collected] = 
+SUM(Fact_Sales[tax_amount])
+// Formatted as Currency: $#,##0.00
+
+[Total Orders] = 
+DISTINCTCOUNT(Fact_Sales[transaction_id])
+// Formatted as Whole Number: #,##0
+// Baseline: 2,500 orders
+
+[Total Units Sold] = 
+SUM(Fact_Sales[quantity])
+// Formatted as Whole Number: #,##0
+// Baseline: 4,664 units
+
+[Distinct Customers] = 
+DISTINCTCOUNT(Fact_Sales[customer_id])
+// Formatted as Whole Number: #,##0
+// Baseline: 494 distinct shoppers
+
+[Active SKUs] = 
+DISTINCTCOUNT(Fact_Sales[product_id])
+// Formatted as Whole Number: #,##0
+// Baseline: 44 products
+
+[Average Order Value (AOV)] = 
+DIVIDE([Total Revenue], [Total Orders], 0)
+// Formatted as Currency: $#,##0.00
+// Baseline: $123.15
+
+[Average Units Per Order] = 
+DIVIDE([Total Units Sold], [Total Orders], 0)
+// Formatted as Decimal: 0.00 units
+// Baseline: 1.87 units
+
+
+// --------------------------------------------------------------------
+// SECTION 2: FULFILLMENT QUALITY & REVENUE LOSS AUDITING
+// --------------------------------------------------------------------
+
+[Realized Revenue] = 
+CALCULATE(
+    [Total Revenue],
+    Fact_Sales[order_status] = "Completed"
+)
+// Formatted as Currency: $#,##0.00
+// Baseline: $279,533.85 (90.79% of total billed)
+
+[Completed Orders] = 
+CALCULATE(
+    [Total Orders],
+    Fact_Sales[order_status] = "Completed"
+)
+// Formatted as Whole Number: #,##0
+// Baseline: 2,287 orders
+
+[Fulfillment Rate %] = 
+DIVIDE([Completed Orders], [Total Orders], 0)
+// Formatted as Percentage: 0.00%
+// Baseline: 91.48%
+
+[Returned Orders] = 
+CALCULATE(
+    [Total Orders],
+    Fact_Sales[order_status] = "Returned"
+)
+// Baseline: 118 orders
+
+[Return Rate %] = 
+DIVIDE([Returned Orders], [Total Orders], 0)
+// Formatted as Percentage: 0.00%
+// Baseline: 4.72%
+
+[Refund Volume $] = 
+CALCULATE(
+    [Total Revenue],
+    Fact_Sales[order_status] = "Returned"
+)
+// Formatted as Currency: $#,##0.00
+// Baseline: $17,635.82
+
+[Cancelled Orders] = 
+CALCULATE(
+    [Total Orders],
+    Fact_Sales[order_status] = "Cancelled"
+)
+// Baseline: 71 orders
+
+[Cancellation Rate %] = 
+DIVIDE([Cancelled Orders], [Total Orders], 0)
+// Formatted as Percentage: 0.00%
+// Baseline: 2.84%
+
+[Cancellation Loss $] = 
+CALCULATE(
+    [Total Revenue],
+    Fact_Sales[order_status] = "Cancelled"
+)
+// Formatted as Currency: $#,##0.00
+// Baseline: $6,955.34
+
+
+// --------------------------------------------------------------------
+// SECTION 3: TIME INTELLIGENCE & MOM / YTD TRACKING
+// (Requires Dim_Date marked as a Date Table in Power BI)
+// --------------------------------------------------------------------
+
+[Revenue MTD] = 
+TOTALMTD([Total Revenue], Dim_Date[date])
+// Formatted as Currency: $#,##0.00
+
+[Revenue QTD] = 
+TOTALQTD([Total Revenue], Dim_Date[date])
+// Formatted as Currency: $#,##0.00
+
+[Revenue YTD] = 
+TOTALYTD([Total Revenue], Dim_Date[date])
+// Formatted as Currency: $#,##0.00
+
+[Revenue Prior Month] = 
+CALCULATE(
+    [Total Revenue],
+    DATEADD(Dim_Date[date], -1, MONTH)
+)
+// Formatted as Currency: $#,##0.00
+
+[MoM Revenue Growth $] = 
+[Total Revenue] - [Revenue Prior Month]
+// Formatted as Currency: +$#,##0.00;-$#,##0.00;$0.00
+
+[MoM Revenue Growth %] = 
+DIVIDE([MoM Revenue Growth $], [Revenue Prior Month], BLANK())
+// Formatted as Percentage: +0.00%;-0.00%;0.00%
+
+[Revenue 30D Rolling] = 
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Dim_Date[date], MAX(Dim_Date[date]), -30, DAY)
+)
+// Formatted as Currency: $#,##0.00
+
+
+// --------------------------------------------------------------------
+// SECTION 4: CUSTOMER BEHAVIOR & CLV METRICS
+// --------------------------------------------------------------------
+
+[Customer Lifetime Value (CLV)] = 
+DIVIDE([Total Revenue], [Distinct Customers], 0)
+// Formatted as Currency: $#,##0.00
+// Baseline: $623.24 per unique customer
+
+[Average Orders per Customer] = 
+DIVIDE([Total Orders], [Distinct Customers], 0)
+// Formatted as Decimal: 0.00
+// Baseline: 5.06 visits
+
+[Repeat Customer Count] = 
+COUNTROWS(
+    FILTER(
+        VALUES(Fact_Sales[customer_id]),
+        CALCULATE([Total Orders]) > 1
+    )
+)
+// Baseline: 494 (all active customers exhibit repeat purchasing)
+
+[Repeat Customer Rate %] = 
+DIVIDE([Repeat Customer Count], [Distinct Customers], 0)
+// Formatted as Percentage: 0.00%
+
+
+// --------------------------------------------------------------------
+// SECTION 5: CATEGORY, CHANNEL & REGIONAL CONTRIBUTION SHARES
+// --------------------------------------------------------------------
+
+[Category Revenue Share %] = 
+DIVIDE(
+    [Total Revenue],
+    CALCULATE([Total Revenue], ALL(Dim_Product[product_category])),
+    0
+)
+// Formatted as Percentage: 0.00%
+
+[Channel Revenue Share %] = 
+DIVIDE(
+    [Total Revenue],
+    CALCULATE([Total Revenue], ALL(Fact_Sales[sales_channel])),
+    0
+)
+// Formatted as Percentage: 0.00%
+
+[Regional Revenue Share %] = 
+DIVIDE(
+    [Total Revenue],
+    CALCULATE([Total Revenue], ALL(Dim_Customer[customer_region])),
+    0
+)
+// Formatted as Percentage: 0.00%
+
+
+// --------------------------------------------------------------------
+// SECTION 6: DYNAMIC KPI BADGES & CONDITIONAL FORMATTING
+// --------------------------------------------------------------------
+
+[MoM KPI Indicator] = 
+VAR _growth = [MoM Revenue Growth %]
+RETURN
+IF(
+    ISBLANK(_growth),
+    "-",
+    IF(
+        _growth >= 0,
+        "▲ +" & FORMAT(_growth, "0.0%"),
+        "▼ " & FORMAT(_growth, "0.0%")
+    )
+)
+
+[Fulfillment Status Badge] = 
+VAR _rate = [Fulfillment Rate %]
+RETURN
+IF(
+    _rate >= 0.90,
+    "HEALTHY (" & FORMAT(_rate, "0.0%") & ")",
+    "WARNING (" & FORMAT(_rate, "0.0%") & ")"
+)
+
+[KPI Color Alert] = 
+VAR _growth = [MoM Revenue Growth %]
+RETURN
+IF(
+    ISBLANK(_growth),
+    "#666666",
+    IF(_growth >= 0, "#2CA02C", "#D62728")
+)

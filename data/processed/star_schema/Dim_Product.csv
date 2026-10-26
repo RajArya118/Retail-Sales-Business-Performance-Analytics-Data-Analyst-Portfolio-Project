@@ -1,0 +1,45 @@
+product_id,product_name,product_category,unit_price
+PROD-AP-01,Classic Denim Jacket,Apparel,68.0
+PROD-AP-02,Cotton Crewneck T-Shirt,Apparel,19.5
+PROD-AP-03,Slim-Fit Chino Trousers,Apparel,48.0
+PROD-AP-04,Waterproof All-Weather Parka,Apparel,119.0
+PROD-AP-05,Merino Wool Knit Sweater,Apparel,85.0
+PROD-AP-06,Athletic Running Shorts,Apparel,32.0
+PROD-AP-07,Genuine Leather Dress Belt,Apparel,35.0
+PROD-AP-08,Performance Cushioned Socks 3-Pack,Apparel,15.0
+PROD-BM-01,Data Science from Scratch Paperback,Books & Media,38.5
+PROD-BM-02,Hands-On Machine Learning with Scikit-Learn,Books & Media,49.99
+PROD-BM-03,The Lean Startup Hardcover,Books & Media,27.0
+PROD-BM-04,Atomic Habits Hardcover Edition,Books & Media,24.0
+PROD-BM-05,Deep Work by Cal Newport,Books & Media,22.5
+PROD-BM-06,Science Fiction Award Anthology,Books & Media,18.0
+PROD-BP-01,Hydrating Hyaluronic Acid Serum,Beauty & Personal Care,34.0
+PROD-BP-02,Sonic Electric Toothbrush,Beauty & Personal Care,59.99
+PROD-BP-03,Pure Moroccan Argan Hair Oil,Beauty & Personal Care,24.5
+PROD-BP-04,Mineral Facial Sunscreen SPF 50,Beauty & Personal Care,18.0
+PROD-BP-05,Ultrasonic Aromatherapy Diffuser,Beauty & Personal Care,29.99
+PROD-BP-06,Dead Sea Mud Purifying Face Mask,Beauty & Personal Care,21.0
+PROD-BP-07,Professional Ionic Hair Dryer,Beauty & Personal Care,75.0
+PROD-EL-01,Wireless Noise-Canceling Headphones,Electronics,149.99
+PROD-EL-02,4K Ultra HD Smart TV 55-inch,Electronics,499.99
+PROD-EL-03,Bluetooth Portable Speaker,Electronics,45.0
+PROD-EL-04,Ergonomic Mechanical Keyboard,Electronics,89.5
+PROD-EL-05,Gaming Mouse with RGB Lighting,Electronics,39.99
+PROD-EL-06,USB-C Multiport Adapter Hub,Electronics,29.99
+PROD-EL-07,Smart Home Security Camera,Electronics,79.99
+PROD-EL-08,Fast Wireless Charging Pad,Electronics,24.99
+PROD-HK-01,10-Piece Stainless Steel Cookware Set,Home & Kitchen,189.99
+PROD-HK-02,Programmable Espresso Machine,Home & Kitchen,229.0
+PROD-HK-03,Cold Brew Coffee Maker 1L,Home & Kitchen,28.5
+PROD-HK-04,Non-Stick Ceramic Frying Pan,Home & Kitchen,39.99
+PROD-HK-05,Organic Bamboo Cutting Board Set,Home & Kitchen,25.0
+PROD-HK-06,High-Speed Countertop Blender,Home & Kitchen,89.95
+PROD-HK-07,Insulated Thermal Tumbler 24oz,Home & Kitchen,22.0
+PROD-HK-08,Air Fryer Max XL 5.8-Quart,Home & Kitchen,99.99
+PROD-SO-01,Non-Slip Eco Yoga Mat with Strap,Sports & Outdoors,28.0
+PROD-SO-02,Adjustable Quick-Select Dumbbell Set,Sports & Outdoors,149.0
+PROD-SO-03,Resistance Bands Workout Kit,Sports & Outdoors,19.99
+PROD-SO-04,Insulated Outdoor Hydration Backpack,Sports & Outdoors,42.0
+PROD-SO-05,Breathable Trail Running Shoes,Sports & Outdoors,110.0
+PROD-SO-06,Heavy-Duty Foldable Camping Chair,Sports & Outdoors,36.5
+PROD-SO-07,Smart GPS Fitness Tracker Band,Sports & Outdoors,64.99
